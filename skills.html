@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="author" content="Prateek Arora"/>
+    <meta name="keywords" content="portfolio, html, css, js, latest portfolio design, latest portforlio website template"/>
+    <meta name ="description" content="If you want to build any kind of website portfolio then you are at right place."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/nav logo white.png" type="image/png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script defer src="index.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+
+<!-- About Page -->  
+<div class="pagecenter">
+    <div class="about-header">
+    <nav class="nav-section">
+        <a href="#"><img id="logo" src="images/nav logo white.png" alt="logo"></a>
+        <ul class="nav-menu">
+            <p class="cross-nav-sign">X</p>
+            <li class="nav-items"><a class="nav-links" href="index.html">Home</a></li>
+            <li class="nav-items"><a class="nav-links" href="default.html">Portfolio</a></li>
+            <li class="nav-items"><a class="nav-links nav-link-active" href="skills.html">About</a></li>
+            <li class="nav-items"><a class="nav-links" href="testimonial.html">Testimonial</a></li>
+            <li class="nav-items"><a class="nav-links" href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+     
+<div class="about-section">
+    
+    <div class="about-image-container">
+        <div class="about-image">
+            <img class="abou-img" src="images/aboutpic.png" alt="image"/>
+        </div>
+        <div class="about-content">
+            <h2 class="about-content-heading-one">About Me</h2>
+            <p class="about-content-heading-two">Who Am I</p>    
+            <p class="about-content-text">I,m Prateek Arora a frontend developer, i am specialized in creating the user interface and user experience of websites or web applications.</p>
+            <a href="#" download="Curriculum Vitae" class="about-btn">Download CV</a>
+        </div>
+    </div>
+
+    <div class="qual-section">
+        <div class="qual-heading-outer-container">
+            <div class="qual-heading-inner-container">
+                <h2 class="qual-heading">Qualifications</h2>
+            </div>
+        </div>
+        <div class="qual-content-container">
+            <div class="qual-flex-container">
+                
+                <div class="qual-left-container">
+                    <div class="qual-text-wrapper-left">
+                        <div class="qual-year"><h2>2023</h2></div>
+                        <div class="qual-para">Presently doing Diploma in Web Development</div>
+                    </div>
+                </div>
+
+                <div class="qual-right-container">
+                    <div class="qual-text-wrapper-right">
+                        <div class="qual-year"><h2>2022</h2></div>
+                        <div class="qual-para">Dropout from Law College</div>
+                    </div>
+                </div>
+
+                <div class="qual-left-container">
+                    <div class="qual-text-wrapper-left">
+                        <div class="qual-year"><h2>2021</h2></div>
+                        <div class="qual-para">Graduated in B.Com Program</div>
+                    </div>
+                </div>
+
+                <div class="qual-right-container">
+                    <div class="qual-text-wrapper-right">
+                        <div class="qual-year"><h2>2018</h2></div>
+                        <div class="qual-para">Passed out from high school</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="skill-section">
+    <div class="skill-heading-container">
+       <div class="skill-heading">
+        <h2>Skills</h2>
+       </div> 
+    </div>
+    <div class="about-circle-container">
+        <div class="about-circle" style="--i:85;">
+            <h3 class="number-text">85<span class="percent-text">%</span></h3>
+            <h4 class="circle-title">HTML</h4>
+        </div>
+        
+        <div class="about-circle" style="--i:75;">
+            <h3 class="number-text">75<span class="percent-text">%</span></h3>
+            <h4 class="circle-title">CSS</h4>
+        </div>
+
+        <div class="about-circle" style="--i:60;">
+            <h3 class="number-text">60<span class="percent-text">%</span></h3>
+            <h4 class="circle-title">JAVASCRIPT</h4>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<footer>
+    <div class="footer-container">
+        <div class="footer-text">
+            <span>All Right Reserved to Prateek Arora</span>
+        </div>
+    
+        <div class="footer-icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+    </div>
+</footer>
+</div>
+<script>
+    ScrollReveal().reveal('.about-image-container', {delay:500, origin:'left',distance:'100px',duration:2000});
+    ScrollReveal().reveal('.qual-section', {delay:500, origin:'right',distance:'100px',duration:2000});
+    ScrollReveal().reveal('.skill-section',{delay:500, origin:'left',distance:'100px',duration:2000});
+</script>
+</body>
+</html>

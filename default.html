@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="author" content="Prateek Arora"/>
+    <meta name="keywords" content="portfolio, html, css, js, latest portfolio design, latest portforlio website template"/>
+    <meta name ="description" content="If you want to build any kind of website portfolio then you are at right place."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="images/nav logo white.png" type="image/png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script defer src="index.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+
+<!-- PORTFOLIO PAGE -->  
+<div class="pagecenter">
+<div class="portfolio-header">
+    <nav class="nav-section">
+        <a href="#"><img id="logo" src="images/nav logo white.png" alt="logo"/></a>
+        <ul class="nav-menu">
+            <p class="cross-nav-sign">X</p>
+            <li class="nav-items"><a class="nav-links" href="index.html">Home</a></li>
+            <li class="nav-items"><a class="nav-links nav-link-active" href="default.html">Portfolio</a></li>
+            <li class="nav-items"><a class="nav-links" href="skills.html">About</a></li>
+            <li class="nav-items"><a class="nav-links" href="testimonial.html">Testimonial</a></li>
+            <li class="nav-items"><a class="nav-links" href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <div class="portfolio-section">
+        <h2 class="portfolio-heading">
+            <span class="portfolio-heading-inner">Portfolio</span>
+        </h2>
+        <div class="portfolio">
+            <div class="portfolio-subsection" onclick="forimage1()">
+                <img class="portfolio-images" src="images/P1.jpg"   alt="image"/>
+            </div>
+            <div class="portfolio-subsection" onclick="forimage2()">
+                <img class="portfolio-images" src="images/P2.jpg" alt="image"/>
+            </div>
+            <div class="portfolio-subsection" onclick="forimage3()">
+                <img class="portfolio-images" src="images/P3.jpg" alt="image"/>
+            </div>
+            <div class="portfolio-subsection" onclick="forimage3()">
+                <img class="portfolio-images" src="images/P3.jpg" alt="image"/>
+            </div>
+            <div class="portfolio-subsection" onclick="forimage2()">
+                <img class="portfolio-images" src="images/P2.jpg" alt="image"/>
+            </div>
+            <div class="portfolio-subsection" onclick="forimage1()">
+                <img class="portfolio-images" src="images/P1.jpg" alt="image"/>
+            </div>
+        </div>
+
+        <div class="big-image-section">
+            <p class="big-sign-cross" onclick="removebigse()">X</p>
+            <div class="big-cover1 bigimgcon">
+                <img class="big-image1 bigimg" src="images/P1.jpg" alt="image"/> 
+            </div>
+            <div class="big-cover2 bigimgcon">
+                <img class="big-image1 bigimg" src="images/P2.jpg" alt="image"/> 
+            </div>
+            <div class="big-cover3 bigimgcon">
+                <img class="big-image1 bigimg" src="images/P3.jpg" alt="image"/> 
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-text">
+            <span>All Right Reserved to Prateek Arora</span>
+        </div>
+    
+        <div class="footer-icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+    </div>
+</footer>
+</div>
+    
+</body>
+</html>

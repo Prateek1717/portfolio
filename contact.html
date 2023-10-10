@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="author" content="Prateek Arora"/>
+    <meta name="keywords" content="portfolio, html, css, js, latest portfolio design, latest portforlio website template"/>
+    <meta name ="description" content="If you want to build any kind of website portfolio then you are at right place."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="images/nav logo white.png" type="image/png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script defer src="index.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+
+<!-- CONTACT US SECTION -->  
+<div class="pagecenter">
+<div class="contact-header">
+    <nav class="nav-section">
+        <a href="#"><img id="logo" src="images/nav logo white.png" alt="logo"/></a>
+        <ul class="nav-menu">
+            <p class="cross-nav-sign">X</p>
+            <li class="nav-items"><a class="nav-links" href="index.html">Home</a></li>
+            <li class="nav-items"><a class="nav-links" href="default.html">Portfolio</a></li>
+            <li class="nav-items"><a class="nav-links" href="skills.html">About</a></li>
+            <li class="nav-items"><a class="nav-links" href="testimonial.html">Testimonial</a></li>
+            <li class="nav-items"><a class="nav-links nav-link-active" href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+
+    <div class="contact-section">
+        <div class="contact-section-container">
+            <div class="contact-section-heading">
+                <h2 >Contact Us</h2>
+            </div>
+
+            <div class="contact-section-flex-container">
+                <div class="contact-left-section">
+                    <form method="post">
+                        <div class="contact-left-top">
+                            <div class="clh firstinput">
+                                <input type="text" name="Name" placeholder="Name" class="inname halfinput" required/>
+                            </div>
+                            <div class="clh secondinput">
+                                <input type="email" name="E-Mail" placeholder="E-Mail" class="inmail halfinput" required/>
+                            </div>
+                            <div class="cl thirdinput">
+                                <textarea rows="10" name="Message" placeholder="Message" class="intext" required></textarea>   
+                            </div>
+                        </div>
+                        <div class="contact-left-bottom">
+                            <div class="contact-btn">
+                                <input type="submit" name="submitbtn" class="subbtn"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="contact-right-section">
+                    
+                    <div class="contact-right-top">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1785102076433!2d55.27180147516143!3d25.19720183170095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj%20Khalifa!5e0!3m2!1sen!2sin!4v1696225525649!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="personal-details">
+                <div class="personal-details-flex-container">
+                    
+                    <div class="personal-email pdc">
+                        <div class="personal-center">
+                        <h3>E-Mail</h3>
+                        <p>prateek@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="personal-mobile pdc">
+                        <div class="personal-center">
+                        <h3>Mobile No.</h3>
+                        <p>+971 463636363</p>
+                        </div>
+                    </div>
+                    
+                    <div class="personal-address pdc">
+                        <div class="personal-center">
+                        <h3>Address</h3>
+                        <p>1 Sheikh Mohammed bin Rashid Blvd - Downtown Dubai - Dubai - United Arab Emirates</p>
+                        </div>
+                    </div>
+
+                </div>   
+            </div>
+
+        </div>
+    </div>
+
+
+    
+</div>
+<footer>
+    <div class="footer-container" id="down">
+        <div class="footer-text">
+            <span>All Right Reserved to Prateek Arora</span>
+        </div>
+    
+        <div class="footer-icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+    </div>
+</footer>
+</div>
+    
+<script>
+
+    ScrollReveal().reveal(".contact-section-heading",{delay:500,distance:"50px",duration:1000,origin:"top"});
+    ScrollReveal().reveal(".contact-left-section",{delay:800,distance:"50px",duration:1500,origin:"left"});
+    ScrollReveal().reveal(".contact-right-section",{delay:800,distance:"50px",duration:1500,origin:"right"});
+    ScrollReveal().reveal(".personal-details", {delay:1000,distance:"100px",duration:2500,origin:"left"});
+</script>
+
+
+</body>
+</html>
