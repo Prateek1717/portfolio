@@ -10,9 +10,8 @@ let deleting = false;
 let typewriter = ()=>{
     const currentword = words[wordindex];
     const currentchar = currentword.substring(0,charindex);
-    // error here
 
-    dynamictext.textContent = currentchar;
+    dynamictext.innerHTML = currentchar;
     dynamictext.classList.add("stop-blinking");
     
     if(!deleting && charindex < currentword.length){
